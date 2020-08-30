@@ -222,14 +222,6 @@ def yagmail():
         main()
     except requests.exceptions.ConnectionError:
         sys.exit("\033[1;91mKoneksi Error!!")
-def fbc():
-    clear()
-    baner()
-    f=input('\033[00mEmpas File(\033[93mlist.txt\033[00m): \033[93m')
-    t= "php ~/knf-tool/config/fbcheck.php"+f
-    c=os.system(t)
-    print(c)
-    main()
 def mbf():
     time.sleep(0.1)
     clear()
@@ -607,7 +599,13 @@ def main():
          else:
              balik()
     elif f == '4' or f == '04':
-         fbc()
+         clear()
+         baner()
+         f=input('\033[00mEmpas File(\033[93mlist.txt\033[00m): \033[93m')
+         t= ("php ~/knf-tool/config/fbcheck.php"+f)
+         c=os.system(t)
+         print(c)
+         main()
     elif f == '5' or f == '05':
          mbf()
     elif f == '6' or f == '06':
@@ -642,7 +640,7 @@ def main():
               main()
          else:
               balik()
-    elif f == '00':
+    elif f == '00' or f == '0':
          clear()
          baner()
          menu()
