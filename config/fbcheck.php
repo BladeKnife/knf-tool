@@ -6,10 +6,6 @@ $cyan = "\e[96m";
 $magenta = "\e[35m";
 $hijau = "\e[92m";
 $merah = "\e[91m";
-echo "\e[1;94m╔═╗\e[97m╔═╗╔═╗╔═╗╔╗ ╔═╗╔═╗╦╔═  \e[1;94m╔═╗\e[97m╦ ╦╔═╗╔═╗╦╔═╔═╗╦═╗\n";  
-echo "\e[1;94m╠╣ \e[97m╠═╣║  ║╣ ╠╩╗║ ║║ ║╠╩╗  \e[1;94m║  \e[97m╠═╣║╣ ║  ╠╩╗║╣ ╠╦╝  \n";
-echo "\e[1;94m╚  \e[97m╩ ╩╚═╝╚═╝╚═╝╚═╝╚═╝╩ ╩  \e[1;94m╚═╝\e[97m╩ ╩╚═╝╚═╝╩ ╩╚═╝╩╚═  \n";
-echo "\e[41;97mFacebook:https://www.facebook.com/xzcoder.xzcoder\033[00m\n";
 
 if(isset($argv[1])) {
     if(file_exists($argv[1])) {
