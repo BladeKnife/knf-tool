@@ -130,7 +130,6 @@ def call2():
 def olx():
     req=requests.post("https://www.olx.co.id/api/auth/authenticate", json={"grantType":"phone","phone":w,"language":"id"}).json()
 def matahari():
-     no=input("no:")
      heder = {'Host': 'thor.matahari.com',
               'content-length': '230',
               'modulecode': 'MR',
