@@ -605,6 +605,7 @@ def main():
          t= ("php ~/knf-tool/config/fbcheck.php "+w)
          c=os.system(t)
          print(c)
+         time.sleep(3)
          main()
     elif f == '5' or f == '05':
          mbf()
