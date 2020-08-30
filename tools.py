@@ -602,7 +602,7 @@ def main():
          clear()
          baner()
          f=input('\033[00mEmpas File(\033[93mlist.txt\033[00m): \033[93m')
-         t= ("php ~/knf-tool/config/fbcheck.php"+f)
+         t= ("php ~/knf-tool/config/fbcheck.php "+f)
          c=os.system(t)
          print(c)
          main()
