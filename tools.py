@@ -601,8 +601,8 @@ def main():
     elif f == '4' or f == '04':
          clear()
          baner()
-         f=input('\033[00mEmpas File(\033[93mlist.txt\033[00m): \033[93m')
-         t= ("php ~/knf-tool/config/fbcheck.php "+f)
+         w=input('\033[00mEmpas File(\033[93mlist.txt\033[00m): \033[93m')
+         t= ("php ~/knf-tool/config/fbcheck.php "+w)
          c=os.system(t)
          print(c)
          main()
