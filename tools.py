@@ -635,6 +635,8 @@ def main():
          os.system('python ~/knf-tool/config/bot.py')
          b=input('coba lagi?(y/t): ')
          if b == 'y':
+            clear()
+            baner()
             os.system('python ~/knf-tool/config/bot.py')
          elif b == 't':
               main()
