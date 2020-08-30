@@ -3,7 +3,7 @@
 pkg update && pkg upgrade
 pkg install git python python2
 pkg install curl clang bash
-pkg install nano php ssh
+pkg install nano php 
 pkg install figlet ruby toilet
 gem install lolcat
 pkg install jq wget 
@@ -15,9 +15,9 @@ pip install bs4
 pip install yagmail
 pip install youtube-dl
 pip install futures
-pip install ThreadPoolExecutor
+pip install ThreadPool
 pip install tqdm
 pip install prompt_toolkit
-pkg install ffmeg
+pkg install ffmpeg
 
 python tools.py
